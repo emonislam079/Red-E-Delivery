@@ -6,9 +6,11 @@ import Home from './Component/Home/Home';
 import Login from './Component/Login/Login/Login';
 import Register from './Component/Login/Register/Register';
 import NotFound from './Component/NotFound/NotFound';
+import AuthProvider from './Contex/AuthProvider';
 function App() {
   return (
     <div className="App">
+      <AuthProvider>
       <Router>
           <Header></Header>
           <Switch>
@@ -32,6 +34,7 @@ function App() {
           </Switch>
           <Footer></Footer>
         </Router>
+        </AuthProvider>
     </div>
   );
 }

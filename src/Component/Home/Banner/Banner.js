@@ -8,7 +8,7 @@ const Banner = () => {
     AOS.init();
     return (
         <Container className='bannar'>
-            <div className='d-flex justify-content-center p-2'>
+            <div className='d-flex justify-content-center p-2 list'>
                 <li>Fast</li>
                 <li>Secured</li>
                 <li>WorldWide</li>
