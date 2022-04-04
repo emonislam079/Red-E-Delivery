@@ -1,0 +1,23 @@
+.bannar {
+  background-image: url("https://i.ibb.co/WgfgzfF/Untitled-1.png");
+  background-repeat: no-repeat;
+  height: 600px;
+}
+li {
+  margin-left: 15px;
+  font-size: 20px;
+  color: black;
+  margin-top: 120px;
+  font-weight: 700;
+}
+
+li:hover {
+  color: red;
+  cursor: pointer;
+}
+h1 {
+  font-size: 80px;
+  color: red;
+  font-weight: 700;
+  margin-top: 10px;
+}
