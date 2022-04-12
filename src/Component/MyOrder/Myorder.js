@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Card, Row, Button, Table, Container } from 'react-bootstrap';
+import {Row, Button, Table, Container } from 'react-bootstrap';
 import useAuth from '../../Hooks/useAuth';
 
 const Myorder = () => {

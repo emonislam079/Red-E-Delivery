@@ -5,6 +5,7 @@ import Footer from './Component/Footer/Footer';
 import Header from './Component/Header/Header';
 import Home from './Component/Home/Home';
 import Login from './Component/Login/Login/Login';
+import PrivetRoute from './Component/Login/PrivetRoute/PrivetRoute';
 import Register from './Component/Login/Register/Register';
 import Myorder from './Component/MyOrder/Myorder';
 import NotFound from './Component/NotFound/NotFound';
@@ -27,12 +28,12 @@ function App() {
             <Route path="/about">
               <About></About>
             </Route>
-            <Route path="/order">
+            <PrivetRoute path="/order">
               <Order></Order>
-            </Route>
-            <Route path="/myorder">
+            </PrivetRoute>
+            <PrivetRoute path="/myorder">
               <Myorder></Myorder>
-            </Route>
+            </PrivetRoute>
             <Route path="/login">
               <Login></Login>
             </Route>
