@@ -1,6 +1,7 @@
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import './App.css';
 import About from './Component/About/About';
+import Connect from './Component/Connect/Connect';
 import Footer from './Component/Footer/Footer';
 import Header from './Component/Header/Header';
 import Home from './Component/Home/Home';
@@ -31,6 +32,9 @@ function App() {
             </Route>
             <Route path="/tracking">
               <Tracking></Tracking>
+            </Route>
+            <Route path="/contact">
+              <Connect></Connect>
             </Route>
             <PrivetRoute path="/order">
               <Order></Order>

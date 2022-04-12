@@ -1,4 +1,5 @@
 import React from 'react';
+import Connect from '../Connect/Connect';
 import Banner from './Banner/Banner';
 import FastDelivery from './FastDelivery/FastDelivery';
 import Offers from './Offers/Offers';
@@ -13,6 +14,7 @@ const Home = () => {
             <Offers></Offers>
             <FastDelivery></FastDelivery>
             <Review></Review>
+            <Connect></Connect>
             
         </>
     );
