@@ -10,6 +10,7 @@ import Register from './Component/Login/Register/Register';
 import Myorder from './Component/MyOrder/Myorder';
 import NotFound from './Component/NotFound/NotFound';
 import Order from './Component/Order/Order';
+import Tracking from './Component/Tracking/Tracking';
 import AuthProvider from './Contex/AuthProvider';
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
             </Route>
             <Route path="/about">
               <About></About>
+            </Route>
+            <Route path="/tracking">
+              <Tracking></Tracking>
             </Route>
             <PrivetRoute path="/order">
               <Order></Order>
