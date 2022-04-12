@@ -8,7 +8,7 @@ const Order = () => {
     const{user } = useAuth();
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
     const onSubmit = data => {
-      fetch('https://shrouded-depths-77971.herokuapp.com/booking', {
+      fetch('http://localhost:5000/order', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -33,7 +33,7 @@ const Order = () => {
 
                 <form onSubmit={handleSubmit(onSubmit)}>
 
-                <input className='d-block mb-3 p-2 w-50 mx-auto' defaultValue={user.displayName} {...register("name")} />
+                <input className='d-block mb-3 p-2 w-50 mx-auto' defaultValue={user.displayName} {...register("name", { required: true } )} />
 
                 <input className='d-block mb-3 p-2 w-50 mx-auto' defaultValue={user.email} {...register("email", { required: true })} />
                 {errors.email && <span className="error">This field is required</span>}

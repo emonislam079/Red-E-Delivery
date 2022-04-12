@@ -6,6 +6,7 @@ import Header from './Component/Header/Header';
 import Home from './Component/Home/Home';
 import Login from './Component/Login/Login/Login';
 import Register from './Component/Login/Register/Register';
+import Myorder from './Component/MyOrder/Myorder';
 import NotFound from './Component/NotFound/NotFound';
 import Order from './Component/Order/Order';
 import AuthProvider from './Contex/AuthProvider';
@@ -28,6 +29,9 @@ function App() {
             </Route>
             <Route path="/order">
               <Order></Order>
+            </Route>
+            <Route path="/myorder">
+              <Myorder></Myorder>
             </Route>
             <Route path="/login">
               <Login></Login>
