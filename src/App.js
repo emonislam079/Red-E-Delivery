@@ -7,6 +7,7 @@ import Home from './Component/Home/Home';
 import Login from './Component/Login/Login/Login';
 import Register from './Component/Login/Register/Register';
 import NotFound from './Component/NotFound/NotFound';
+import Order from './Component/Order/Order';
 import AuthProvider from './Contex/AuthProvider';
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
             </Route>
             <Route path="/about">
               <About></About>
+            </Route>
+            <Route path="/order">
+              <Order></Order>
             </Route>
             <Route path="/login">
               <Login></Login>
