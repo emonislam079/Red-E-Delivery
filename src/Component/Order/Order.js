@@ -8,7 +8,7 @@ const Order = () => {
     const{user } = useAuth();
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
     const onSubmit = data => {
-      fetch('http://localhost:5000/order', {
+      fetch('https://radiant-springs-67017.herokuapp.com/order', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

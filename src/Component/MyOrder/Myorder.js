@@ -7,14 +7,14 @@ const Myorder = () => {
     const {user} = useAuth();
   const [Orders, setOrders]= useState([]);
     useEffect(() => {
-      const url = `http://localhost:5000/order?email=${user.email}`;
+      const url = `https://radiant-springs-67017.herokuapp.com/order?email=${user.email}`;
         fetch(url)
         .then(res => res.json())
         .then(data => setOrders(data))
     }, [])
 
     const handelDelete = id =>{
-        const url = `http://localhost:5000/order/${id}`;
+        const url = `https://radiant-springs-67017.herokuapp.com/order/${id}`;
         fetch(url, {
           method: 'DELETE'
         })
