@@ -16,7 +16,7 @@ const Review = () => {
       width= '80px'
     />
     <h2 className='text-white' >Name: Emon Islam</h2>
-    <p className='text-white text-center'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis minus, eligendi libero unde tempore perferendis similique sit, at explicabo illum id amet ipsum quia doloremque perspiciatis incidunt, vitae expedita molestiae?</p>
+    <p className='text-white text-center w-50 mx-auto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis minus, eligendi libero unde tempore perferendis similique sit, at explicabo illum id amet ipsum quia doloremque perspiciatis incidunt, vitae expedita molestiae?</p>
     </Carousel.Item>
   <Carousel.Item>
   <img
@@ -27,7 +27,7 @@ const Review = () => {
       width= '80px'
     />
     <h2 className='text-white' >Name: Emon Islam</h2>
-    <p className='text-white text-center'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis minus, eligendi libero unde tempore perferendis similique sit, at explicabo illum id amet ipsum quia doloremque perspiciatis incidunt, vitae expedita molestiae?</p>
+    <p className='text-white text-center w-50 mx-auto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis minus, eligendi libero unde tempore perferendis similique sit, at explicabo illum id amet ipsum quia doloremque perspiciatis incidunt, vitae expedita molestiae?</p>
     
     </Carousel.Item>
   <Carousel.Item>
@@ -39,7 +39,7 @@ const Review = () => {
       width= '80px'
     />
     <h2 className='text-white' >Name: Emon Islam</h2>
-    <p className='text-white text-center'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis minus, eligendi libero unde tempore perferendis similique sit, at explicabo illum id amet ipsum quia doloremque perspiciatis incidunt, vitae expedita molestiae?</p>
+    <p className='text-white text-center w-50 mx-auto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis minus, eligendi libero unde tempore perferendis similique sit, at explicabo illum id amet ipsum quia doloremque perspiciatis incidunt, vitae expedita molestiae?</p>
     
     </Carousel.Item>
 </Carousel>

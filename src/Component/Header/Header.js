@@ -6,6 +6,7 @@ import './Header.css'
 
 const Header = () => {
   const { user, logout } = useAuth();
+  console.log(user)
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
@@ -39,13 +40,13 @@ const Header = () => {
                                 <Navbar.Text>
                             Signed in :  <a href="/login">{user?.displayName}</a>
                         </Navbar.Text>
-                        <Navbar.Brand href="/home" className='ms-2'>
+                        <Navbar.Brand href="/home" className='ms-2 '>
                                             <img
                                             alt=""
                                             src={user?.photoURL}
                                             width="40"
                                             height="40"
-                                            className="d-inline-block align-top"
+                                            className="d-inline-block align-top rounded-circle"
                                             />
                         </Navbar.Brand>
                         </Nav>
@@ -53,6 +54,7 @@ const Header = () => {
   </Navbar.Collapse>
   </Container>
 </Navbar>
+
     );
 };
 
